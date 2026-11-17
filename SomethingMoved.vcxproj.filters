@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C362770E-AC8B-4F9C-B7A0-D6CDBCB27D42}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx</Extensions>
+    </Filter>
+    <Filter Include="Media">
+      <UniqueIdentifier>{CC4D9F0C-68D1-4F78-8310-B91A7F074FB4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\GameApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AudioController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GameApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AudioController.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameModel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameRenderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputController.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Fonts\courier.spritefont">
+      <Filter>Media</Filter>
+    </None>
+    <None Include="Media\Audio\blackout.wav"><Filter>Media</Filter></None>
+    <None Include="Media\Audio\correct.wav"><Filter>Media</Filter></None>
+    <None Include="Media\Audio\incorrect.wav"><Filter>Media</Filter></None>
+    <None Include="Media\Audio\rain.wav"><Filter>Media</Filter></None>
+    <None Include="Media\Textures\glow.png"><Filter>Media</Filter></None>
+    <None Include="Media\Textures\BedroomRoom\normal.png"><Filter>Media</Filter></None>
+    <None Include="Media\Textures\BedroomRoom\teddy_missing.png"><Filter>Media</Filter></None>
+    <None Include="Media\Textures\BedroomRoom\lamp_off.png"><Filter>Media</Filter></None>
+    <None Include="Media\Textures\BedroomRoom\portrait_missing.png"><Filter>Media</Filter></None>
+    <None Include="Media\Textures\BedroomRoom\clock_changed.png"><Filter>Media</Filter></None>
+    <None Include="Media\Textures\BedroomRoom\phone_missing.png"><Filter>Media</Filter></None>
+    <None Include="Media\Textures\BedroomRoom\books_missing.png"><Filter>Media</Filter></None>
+    <None Include="Media\Textures\BedroomRoom\candle_out.png"><Filter>Media</Filter></None>
+    <None Include="Media\Textures\BedroomRoom\wardrobe_open.png"><Filter>Media</Filter></None>
+    <None Include="Media\Textures\objects_cinematic.png"><Filter>Media</Filter></None>
+    <None Include="Media\Textures\room_cinematic.png"><Filter>Media</Filter></None>
+    <None Include="Media\Textures\objects.png">
+      <Filter>Media</Filter>
+    </None>
+    <None Include="Media\Textures\room.png">
+      <Filter>Media</Filter>
+    </None>
+    <None Include="Media\Textures\solid.png">
+      <Filter>Media</Filter>
+    </None>
+    <None Include="Media\xml\gamesettings.xml">
+      <Filter>Media</Filter>
+    </None>
+  </ItemGroup>
+</Project>

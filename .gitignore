@@ -1,0 +1,18 @@
+# Visual Studio workspace files
+.vs/
+*.suo
+*.user
+
+# Build output
+bin/
+obj/
+x64/
+
+# Compiler and linker artifacts
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.lastbuildstate
+*.recipe
