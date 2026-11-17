@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <game name="Something Moved" />
+  <renderer width="1280" height="720" />
+  <font file="Media\Fonts\courier.spritefont" />
+  <sprites path="Media\Textures">
+    <sprite name="room_normal" file="BedroomRoom\normal.png" />
+    <sprite name="room_teddy_missing" file="BedroomRoom\teddy_missing.png" />
+    <sprite name="room_lamp_off" file="BedroomRoom\lamp_off.png" />
+    <sprite name="room_portrait_missing" file="BedroomRoom\portrait_missing.png" />
+    <sprite name="room_clock_changed" file="BedroomRoom\clock_changed.png" />
+    <sprite name="room_phone_missing" file="BedroomRoom\phone_missing.png" />
+    <sprite name="room_books_missing" file="BedroomRoom\books_missing.png" />
+    <sprite name="room_candle_out" file="BedroomRoom\candle_out.png" />
+    <sprite name="room_wardrobe_open" file="BedroomRoom\wardrobe_open.png" />
+    <sprite name="solid" file="solid.png" />
+    <sprite name="glow" file="glow.png" />
+  </sprites>
+  <sounds path="Media\Audio">
+    <sound name="rain" file="rain.wav" instances="1" />
+    <sound name="blackout" file="blackout.wav" instances="2" />
+    <sound name="correct" file="correct.wav" instances="2" />
+    <sound name="incorrect" file="incorrect.wav" instances="2" />
+  </sounds>
+</settings>
